@@ -1,0 +1,319 @@
+body {
+  background-color: #dedede;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+
+p {
+  text-align: center;
+}
+
+div img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+div {
+  display: inline-block;
+  width: 24%;
+  margin: 5px;
+  padding: 2px;
+}
+
+
+
+
+
+/* Style all of the div borders */
+
+/* div{
+    border: 8px solid black;
+} */
+
+/* Compare that to styling all of the images */
+/* 
+div img{
+    border: 8px solid black;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style all of the odd divs */
+/* 
+div:nth-child(odd){
+    border: 8px solid black;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style all of the odd images */
+/* 
+div:nth-child(odd) img{
+    border: 8px solid black;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style all of the even divs */
+
+/* div:nth-child(even){
+    border: 8px solid black;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style every third element -- everything in the third column */
+
+/* div:nth-child(3n){
+    border: 8px solid black;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style everything in the second column */
+
+/* div:nth-child(2n){
+    border: 8px solid black;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style everything in the second column -- Attempt 2*/
+/* 
+div:nth-child(3n+2){
+    border: 8px solid black;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* Style each column differently */
+
+/* div:nth-child(3n+1){
+    border: 8px solid blue;
+}
+div:nth-child(3n+2){
+    border: 8px dashed black;
+    position: relative;
+    top: 200px;
+    
+}
+div:nth-child(3n+3){
+    border: 8px solid green;
+    position: relative;
+    top: -50px;
+}
+ */
+
+
+
+
+
+/* Remove the border on hover */
+
+main div:hover {
+  border-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+main {
+    border: 5px #000 solid;
+    margin: 10px;
+}
+ */
+/* 
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+ */
+/* img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+} */
+
+/* .child {
+    position: relative;
+    display: inline-block;
+    border: 5px black solid;
+    margin: 5px;
+    border-radius: 5px;
+} */
+
+/* 
+
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.button {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 25px;
+}
+ */
+/* 
+.button:hover {
+    background-color:#fff;
+} */
+
+/* 
+footer {
+    display: flex;
+    justify-content: center;
+} */
+
+/* 
+header {
+    border-radius: 5px;
+    border: 5px #000 solid;
+    margin: 10px;
+} */
+
+/* 
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.child:hover .label {
+    display: block;
+} */

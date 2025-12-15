@@ -1,0 +1,13 @@
+/* Style sheet created for externalStyle.html.
+ It is possible to reuse this file as many times
+ as you would like.*/
+
+h1{
+	color:blue;
+}
+
+p{
+	color:red;
+	background-color: yellow;
+	font-family: Cursive, Times, Helvetica;
+}

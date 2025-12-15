@@ -1,0 +1,29 @@
+div {
+			color: #000000;
+	  		background: #2db34a;
+  			line-height: 200px;
+  			text-align: center;
+  			width: 250px;
+  			height:200px;
+  			border-radius: 6px;
+
+		  	transition-property: color, 
+  	    	 width, background, border-radius;
+  			transition-duration: .5s;
+  			transition-timing-function: linear;
+  			transition-delay: .5s;
+
+  			/*transition: .5s linear .5s; */
+		}
+		div:hover {
+			color: #ffffff;
+			width:350px;
+			background: #2D31B3;
+  			border-radius: 50%;
+		}
+
+		div:active {
+			color: #000000;
+			width:150px;
+			background: #00DDB3;
+		}

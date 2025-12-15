@@ -1,0 +1,16 @@
+h1{
+	font-family: cursive;
+	color: #0000FF;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+p{
+	font-family: Nonsensical, Arial;
+	line-height: 150%;
+  /*font-size: .8em; */
+}
+
+div{
+/*	font-size: .5em;*/
+}

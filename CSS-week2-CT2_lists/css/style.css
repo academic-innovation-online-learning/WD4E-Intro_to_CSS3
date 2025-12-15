@@ -1,0 +1,18 @@
+div{
+	display: inline-block;
+	width:45%;
+}
+ol{
+	list-style-type: upper-roman;
+}
+
+ul{
+	list-style-type: square;
+}
+
+/*Uncomment this rule */
+ul, ol{
+	list-style-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/lightning.png");
+}
+
+/*In my code I used a local image.  Can't do that here.*/

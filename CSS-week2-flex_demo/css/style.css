@@ -1,0 +1,45 @@
+
+body {
+    background-color: #dedede;
+}
+
+h1 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 32px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family:Arial, sans-serif;
+}
+
+p {
+   font-size: 25px;
+   font-family:Arial, sans-serif;
+}
+
+img{
+  width:150px;
+  height:150px;
+}
+
+p{
+  text-align:center;
+}
+
+div{
+  display: inline-block;
+}
+
+main{
+    /* Set the display to flex */
+
+    /* Change the value of flex-direction */
+
+    /* Change the value of flex-wrap; */
+
+    /* Change the value of justify-content */
+}
+
