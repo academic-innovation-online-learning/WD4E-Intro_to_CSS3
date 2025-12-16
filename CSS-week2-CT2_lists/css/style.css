@@ -11,8 +11,7 @@ ul{
 }
 
 /*Uncomment this rule */
-/* ul, ol{
-	list-style-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/lightning.png");
-} */
+ul, ol{
+	list-style-image: url("../css/lightning.png");
+}
 
-/*In my code I used a local image.  If you would like to do that, here is a link to download the image.*/
