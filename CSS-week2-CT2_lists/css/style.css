@@ -12,6 +12,6 @@ ul{
 
 /*Uncomment this rule */
 ul, ol{
-	list-style-image: url("../css/lightning.png");
+	list-style-image: url("../images/lightning.png");
 }
 
