@@ -1,4 +1,96 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+/* ==========================================================================
+   BƯỚC 3: Thẻ nội dung (body)
+   - Sửa đổi họ phông chữ (font-family) và kích thước phông chữ (font-size)
+   ========================================================================== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #333333; 
+    background-color: #f9f9f9; 
+}
+
+/* ==========================================================================
+   BƯỚC 4: Thẻ tiêu đề (header)
+   - Sửa đổi thuộc tính màu nền (background-color)
+   ========================================================================== */
+header {
+    background-color: #1a252f; 
+    padding: 20px;
+}
+
+/* ==========================================================================
+   BƯỚC 5: Thẻ nav (Thanh điều hướng)
+   - Sửa đổi thuộc tính màu nền (background-color)
+   ========================================================================== */
+nav {
+    background-color: #2c3e50; 
+    padding: 10px;
+}
+
+/* ==========================================================================
+   BƯỚC 6: Thẻ chính (main)
+   - Sửa đổi màu nền (background-color) và kích thước phông chữ (font-size)
+   ========================================================================== */
+main {
+    background-color: #ffffff; 
+    font-size: 1.1rem; 
+    padding: 30px;
+    max-width: 1000px; 
+    margin: 20px auto; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.05); 
+}
+
+/* ==========================================================================
+   BƯỚC 7: Thẻ chân trang (footer)
+   - Sửa đổi thuộc tính màu nền (background-color)
+   ========================================================================== */
+footer {
+    background-color: #1a252f; 
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+}
+
+/* ==========================================================================
+   BƯỚC 8: Thẻ li (Danh sách)
+   - Sửa đổi thuộc tính hiển thị (display) và chiều rộng (width)
+   ========================================================================== */
+li {
+    display: inline-block; 
+    width: 150px;          
+    text-align: center;    
+}
+
+/* Style nhẹ thêm cho thẻ liên kết trong menu */
+li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+li a:hover {
+    color: #1abc9c; 
+}
+
+/* ==========================================================================
+   BƯỚC 9: Thẻ h1 (Tiêu đề chính)
+   - Sửa đổi căn chỉnh văn bản (text-align), họ phông chữ (font-family) 
+     và thuộc tính màu sắc (color)
+   ========================================================================== */
+h1 {
+    text-align: center;                   
+    font-family: 'Arial Black', Gadget, sans-serif; 
+    color: #ffffff;                       
+    margin: 0;
+}
+
+/* ==========================================================================
+   BƯỚC 10: Thẻ p (Đoạn văn)
+   - Sửa đổi thuộc tính chiều cao dòng (line-height)
+   ========================================================================== */
+p {
+    line-height: 1.8; 
+    margin-bottom: 15px;
 }
