@@ -1,4 +1,45 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 150%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #222222;
+}
+
+header {
+  background-color: #1f4e79;
+  padding: 20px;
+}
+
+nav {
+  background-color: #d9eaf7;
+  padding: 10px;
+}
+
+main {
+  background-color: #ffffff;
+  font-size: 90%;
+  padding: 20px;
+}
+
+footer {
+  background-color: #1f4e79;
+  color: #ffffff;
+  padding: 15px;
+}
+
+li {
+  display: inline-block;
+  width: 150px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #ffffff;
+}
+
+p {
+  line-height: 1.6;
 }
