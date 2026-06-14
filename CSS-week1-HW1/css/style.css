@@ -9,8 +9,9 @@ header{
 }
 
 nav{
-  background-color: lightblue;
   height: 50px;
+  display: inline-block;
+  width: 80%;
 }
 
 main{
@@ -29,6 +30,16 @@ li{
   text-align: center;
 }
 
+/*
+li {
+  display: inline-block;
+  width: 350px;
+  height: 200px;
+  line-height: 45px;
+  text-align: center;
+}
+*/
+
 h1{
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
@@ -37,4 +48,22 @@ h1{
 
 p{
   line-height: 75px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: start;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
