@@ -1,4 +1,36 @@
 body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+
+header{
+  background-color: crimson;
+}
+
+nav{
+  background-color: aqua;
+}
+
+main{
+  background-color: chartreuse;
+  font-size: 199px;
+}
+
+footer{
+  background-color: brown;
+}
+
+li{
+  display: table-cell;
+  width: 67px;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Courier New', Courier, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: coral;
+}
+
+p{
+  line-height: 30%;
 }
