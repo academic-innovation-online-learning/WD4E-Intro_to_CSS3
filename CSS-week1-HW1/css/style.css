@@ -1,39 +1,54 @@
-
-
-
 body{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Gothic', 'Century Gothic', 'AppleGothic', sans-serif;
   font-size: 150%;
   background-color: rgb(211, 151, 235);
-  text-align: center;
+  
 }
 
-body li{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+body nav li{
+  background-color: rgb(245, 227, 145);
+  display:flex;
+  justify-content: space-between; left: 10%;
+  display: list-item;
+  width: 80%;
+  font-family: 'Gothic', 'Century Gothic', 'AppleGothic', sans-serif; 
   font-size: 100%;
-  display: inline-block;
-  width: 20%;
-  padding: 0.2em;
-  border-radius: 10px;
+  
   text-align: center;
   height: 55%;
-  background-color: rgb(245, 227, 145);
   line-height: 100px;
 }
+body nav ul{
+  list-style-type: none;
+  padding: .5%;
+  margin: 1%;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  background-color: rgb(245, 227, 145);
+  font-family: 'Gothic', 'Century Gothic', 'AppleGothic', sans-serif;
+  flex-direction: row;
+  
+  
+}
 
-body img {
-  display: inline-block;
-  width: 25%;
-  vertical-align: middle;
-  height: 25%;
-  border-radius: 5%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+body main div img {
+  background-color: rgb(144, 231, 245);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5em;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  
+  
+
 
 }
 
+
 body main p {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:'Gothic', 'Century Gothic', 'AppleGothic', sans-serif;
   font-size: 100%;
   display: inline-block;
   text-align: center;
@@ -41,7 +56,7 @@ body main p {
   line-height: 45px;
 }
 body h1 {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:'Gothic', 'Century Gothic', 'AppleGothic', sans-serif;
   font-size: 170%;
   background-color: rgb(245, 227, 145);
   display: inline-block;
@@ -51,10 +66,11 @@ body h1 {
 
 } 
 body footer {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:'Gothic', 'Century Gothic', 'AppleGothic', sans-serif;
   font-size: 100%;
   background-color: rgb(245, 227, 145);
   display: inline-block;
   padding: 0.2em;
   border-radius: 10px;
+  justify-content: center;
 }
