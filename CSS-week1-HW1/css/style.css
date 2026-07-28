@@ -8,11 +8,10 @@ body{
 body nav li{
   background-color: rgb(245, 227, 145);
   display:flex;
-  justify-content: space-between; left: 10%;
+  justify-content: space-between;
   width: 80%;
   font-family: 'Gothic', 'Century Gothic', 'AppleGothic', sans-serif; 
   font-size: 100%;
-  
   text-align: center;
   height: 55%;
   line-height: 100px;
@@ -40,9 +39,6 @@ body main div img {
   border-radius: 10px;
   flex-wrap: wrap;
   
-  
-
-
 }
 
 
@@ -58,7 +54,6 @@ body h1 {
   font-family:'Gothic', 'Century Gothic', 'AppleGothic', sans-serif;
   font-size: 170%;
   background-color: rgb(245, 227, 145);
-  display: inline-block;
   padding: 0.5em;
   border-radius: 10px;
   
