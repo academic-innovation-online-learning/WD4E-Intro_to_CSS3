@@ -8,12 +8,12 @@ body{
 body nav li{
   background-color: rgb(245, 227, 145);
   display:flex;
-  justify-content: center;
-  width: 80%;
+  justify-content:space-around;
+  width: 100%;
   font-family: 'Gothic', 'Century Gothic', 'AppleGothic', sans-serif; 
   font-size: 100%;
   text-align: center;
-  height: 55%;
+  height: 50%;
   line-height: 100px;
 }
 body nav ul{
@@ -22,29 +22,40 @@ body nav ul{
   margin: 1%;
   display: flex;
   justify-content: space-around;
-  width: 80%;
+  width: 97%;
   background-color: rgb(245, 227, 145);
   font-family: 'Gothic', 'Century Gothic', 'AppleGothic', sans-serif;
   flex-direction: row;
   
 }
 
-
-
-/* Make a two column-layout instead of a three-column layout */
-@media (max-width: 600px) {
-  .flex-item {
-    flex: 100%;
-  }
+body header nav img{
+  display: flex;
+  justify-content: right;
+  width: 70%;
+  height: 80%;
+  border-radius: 10px;
+  padding: 0.5em;
+  margin: 0.5em;
+  background-color: rgb(251, 134, 239);
 }
+
+.container{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1em;
+  justify-content: center;  
+}
+
+  
 
  body main div img{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: space-between; 
-  width: 25%;
-  height: 25%;
+  width: 70%;
+  height: 80%;
   border-radius: 10px;
   padding: 0.5em;
   margin: 0.5em;
