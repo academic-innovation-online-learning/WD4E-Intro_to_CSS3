@@ -32,7 +32,7 @@ body nav ul{
 
  body main div img{
   display: flex;
-  flex direction: row;
+  flex-direction: row;
   justify-content: center; 
   width: 25%;
   height: 25%;
