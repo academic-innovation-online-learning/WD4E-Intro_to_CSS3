@@ -30,10 +30,19 @@ body nav ul{
 }
 
 
+
+/* Make a two column-layout instead of a three-column layout */
+@media (max-width: 600px) {
+  .flex-item {
+    flex: 100%;
+  }
+}
+
  body main div img{
   display: flex;
-  flex-direction: row;
-  justify-content: center; 
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between; 
   width: 25%;
   height: 25%;
   border-radius: 10px;
