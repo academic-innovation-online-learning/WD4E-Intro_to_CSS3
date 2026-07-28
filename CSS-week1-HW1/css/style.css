@@ -9,7 +9,6 @@ body nav li{
   background-color: rgb(245, 227, 145);
   display:flex;
   justify-content: space-between; left: 10%;
-  display: list-item;
   width: 80%;
   font-family: 'Gothic', 'Century Gothic', 'AppleGothic', sans-serif; 
   font-size: 100%;
