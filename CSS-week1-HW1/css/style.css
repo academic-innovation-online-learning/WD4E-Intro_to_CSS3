@@ -53,6 +53,7 @@ body main p {
 body h1 {
   font-family:'Gothic', 'Century Gothic', 'AppleGothic', sans-serif;
   font-size: 170%;
+  display: inline-block;
   background-color: rgb(245, 227, 145);
   padding: 0.5em;
   border-radius: 10px;
