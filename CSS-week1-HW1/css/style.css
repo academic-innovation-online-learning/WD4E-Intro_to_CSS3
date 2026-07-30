@@ -18,8 +18,8 @@ body nav li{
 }
 body nav ul{
   list-style-type: none;
-  padding: .5%;
-  margin: 1%,1%;
+  padding: .2%;
+  margin: 2%,2%;
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -29,15 +29,17 @@ body nav ul{
   
 }
 
-body header nav img{
+body header img{
   display: flex;
-  justify-content: center;
-  width: 100%;
+  justify-content: left;
+  flex-direction: row;
+  width: 15%;
   height: 100%;
-  border-radius: 10px;
-  padding: 0.5em;
-  margin: 1%,1%;
-  background-color: rgb(251, 134, 239);
+  border-radius: 1px;
+  padding: 1%;
+  margin: 2%;
+  flex-wrap: wrap;
+  background-color: rgba(167, 57, 156, 1);
 }
 
 .container{
@@ -49,22 +51,17 @@ body header nav img{
   align-content: center;
   row-gap: 1em;
   flex-wrap: wrap;
-  
-  
+   
 }
-
-  
 
  body main div img{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center; 
   width: 100%;
   height: 100%;
   border-radius: 2px;
-  padding: 0.5em;
-  margin: 0.5em;
+  padding: 5%;
+  margin: 35%;
   flex-wrap: wrap;
   background-color: rgb(144, 231, 245);
   
@@ -86,7 +83,6 @@ body h1 {
   background-color: rgb(245, 227, 145);
   padding: 0.5em;
   border-radius: 10px;
-  
 
 } 
 body footer {
