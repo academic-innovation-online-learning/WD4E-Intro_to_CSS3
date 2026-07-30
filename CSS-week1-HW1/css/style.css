@@ -19,10 +19,10 @@ body nav li{
 body nav ul{
   list-style-type: none;
   padding: .5%;
-  margin: 1%;
+  margin: 1%,1%;
   display: flex;
   justify-content: space-around;
-  width: 97%;
+  width: 100%;
   background-color: rgb(245, 227, 145);
   font-family: 'Gothic', 'Century Gothic', 'AppleGothic', sans-serif;
   flex-direction: row;
@@ -31,7 +31,7 @@ body nav ul{
 
 body header nav img{
   display: flex;
-  justify-content: right;
+  justify-content: center;
   width: 100%;
   height: 80%;
   border-radius: 10px;
@@ -41,10 +41,16 @@ body header nav img{
 }
 
 .container{
-  display:grid;
-  grid-template-columns: auto auto auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 1em;
-  justify-content: center;  
+  justify-content:space-between; 
+  justify-items: center;
+  align-content: center;
+  row-gap: 1em;
+  flex-wrap: wrap;
+  
+  
 }
 
   
@@ -53,10 +59,10 @@ body header nav img{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: space-between; 
-  width: 70%;
-  height: 80%;
-  border-radius: 10px;
+  align-content: center; 
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
   padding: 0.5em;
   margin: 0.5em;
   flex-wrap: wrap;
