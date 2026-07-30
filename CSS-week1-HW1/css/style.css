@@ -33,10 +33,10 @@ body header nav img{
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 80%;
+  height: 100%;
   border-radius: 10px;
   padding: 0.5em;
-  margin: 0.5em;
+  margin: 1%,1%;
   background-color: rgb(251, 134, 239);
 }
 
