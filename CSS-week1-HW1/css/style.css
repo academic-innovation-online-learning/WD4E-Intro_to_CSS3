@@ -5,7 +5,7 @@ body{
   
 }
 
-body nav li{
+body header nav li{
   background-color: rgb(245, 227, 145);
   display:flex;
   justify-content:space-around;
@@ -16,28 +16,29 @@ body nav li{
   height: 50%;
   line-height: 100px;
 }
-body nav ul{
+body header nav ul{
   list-style-type: none;
-  padding: .2%;
-  margin: 2%,2%;
+  padding: .1%;
+  margin: 2.5;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   background-color: rgb(245, 227, 145);
   font-family: 'Gothic', 'Century Gothic', 'AppleGothic', sans-serif;
   flex-direction: row;
   
+  
 }
 
 body header img{
   display: flex;
-  justify-content: left;
-  flex-direction: row;
+  justify-content: right;
   width: 15%;
   height: 100%;
   border-radius: 1px;
   padding: 1%;
   margin: 2%;
+  flex-direction: column;
   flex-wrap: wrap;
   background-color: rgba(167, 57, 156, 1);
 }
@@ -54,6 +55,17 @@ body header img{
    
 }
 
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-height: 25%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1%;
+  margin: .5%;
+  border-radius: 10px;
+}
  body main div img{
   display: flex;
   flex-direction: column;
