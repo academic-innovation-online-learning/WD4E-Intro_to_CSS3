@@ -1,4 +1,108 @@
 body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Gothic', 'Century Gothic', 'AppleGothic', sans-serif;
   font-size: 150%;
+  background-color: rgb(211, 151, 235);
+  
+}
+
+body header nav li{
+  background-color: rgb(245, 227, 145);
+  display:flex;
+  justify-content:space-around;
+  width: 100%;
+  font-family: 'Gothic', 'Century Gothic', 'AppleGothic', sans-serif; 
+  font-size: 100%;
+  text-align: center;
+  height: 50%;
+  line-height: 100px;
+}
+body header nav ul{
+  list-style-type: none;
+  padding: .1%;
+  margin: 2.5;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(245, 227, 145);
+  font-family: 'Gothic', 'Century Gothic', 'AppleGothic', sans-serif;
+  flex-direction: row;
+  
+  
+}
+
+body header img{
+  display: flex;
+  justify-content: right;
+  width: 15%;
+  height: 100%;
+  border-radius: 1px;
+  padding: 1%;
+  margin: 2%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgba(167, 57, 156, 1);
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 1em;
+  justify-content:space-between; 
+  justify-items: center;
+  align-content: center;
+  row-gap: 1em;
+  flex-wrap: wrap;
+   
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-height: 25%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1%;
+  margin: .5%;
+  border-radius: 10px;
+}
+ body main div img{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  padding: 5%;
+  margin: 22%;
+  flex-wrap: wrap;
+  background-color: rgb(144, 231, 245);
+  
+}
+
+
+body main p {
+  font-family:'Gothic', 'Century Gothic', 'AppleGothic', sans-serif;
+  font-size: 100%;
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(103, 228, 228);
+  line-height: 45px;
+}
+body h1 {
+  font-family:'Gothic', 'Century Gothic', 'AppleGothic', sans-serif;
+  font-size: 170%;
+  display: inline-block;
+  background-color: rgb(245, 227, 145);
+  padding: 0.5em;
+  border-radius: 10px;
+
+} 
+body footer {
+  font-family:'Gothic', 'Century Gothic', 'AppleGothic', sans-serif;
+  font-size: 100%;
+  background-color: rgb(245, 227, 145);
+  display: inline-block;
+  padding: 0.2em;
+  border-radius: 10px;
+  justify-content: center;
 }
