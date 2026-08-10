@@ -2,3 +2,27 @@ body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 150%;
 }
+header{
+  background-color:blue;
+}
+nav{
+  bacground-color:orange;
+}
+main{
+  background-color:lightgrey;
+  font-size: 150%;
+}
+footer{
+  background-color:blue;
+}
+li{
+  display: inline-block;
+    width:30%;
+  h1{
+    text-alignment:center;
+    font-family:comic sans ms, sans-serif,cursive;
+    color:red;
+  }
+  p{
+    line-height:2;
+  }
