@@ -1,34 +1,57 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 140%;
 }
-header{
+
+header {
   background-color: #D8125B;
 }
-nav{
-  background-color:#2C2E39;
+
+nav {
+  background-color: #2C2E39;
   display: inline-block;
   width: 80%;
 }
+
 nav img {
   width: 10%
 }
-main{
-  background-color:#2C2E39;
+
+main {
+  background-color: #2C2E39;
   font-size: 120%;
 }
-footer{
-  background-color:#2C2E39;
+
+footer {
+  background-color: #2C2E39;
 }
-li{
+
+/* li {
   display: inline-block;
   width: 10%;
-}
-h1{
+} */
+
+h1 {
   color: #f0f0f0;
   text-align: center;
-  font-family:font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-p{
+
+p {
   line-height: 1.5;
+}
+
+div img {
+  width: 50%;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 20px;
+}
+.image-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
