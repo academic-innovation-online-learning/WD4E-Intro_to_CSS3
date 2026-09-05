@@ -1,0 +1,64 @@
+/* Bước 3: Tạo kiểu cho thẻ body (Họ phông chữ và kích thước phông chữ) */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0; /* Xóa khoảng trắng mặc định của trình duyệt */
+}
+
+/* Bước 4: Tạo kiểu cho thẻ header (Màu nền) */
+header {
+    background-color: #e3f2fd;
+    padding: 20px;
+}
+
+/* Bước 5: Tạo kiểu cho thẻ nav (Màu nền) */
+nav {
+    background-color: #1976d2;
+    padding: 10px 0;
+}
+
+/* Bước 6: Tạo kiểu cho thẻ main (Màu nền và kích thước phông chữ) */
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Bước 7: Tạo kiểu cho thẻ footer (Màu nền) */
+footer {
+    background-color: #eeeeee;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Bước 8: Tạo kiểu cho thẻ li (Hiển thị và chiều rộng) 
+   Sử dụng inline-block để các mục nằm ngang cạnh nhau như một thanh điều hướng */
+li {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+/* Bước 9: Tạo kiểu cho thẻ h1 (Căn lề, họ phông chữ, và màu sắc) */
+h1 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: #0d47a1;
+}
+
+/* Bước 10: Tạo kiểu cho thẻ p (Chiều cao dòng) */
+p {
+    line-height: 1.6;
+}
+
+/* --- Tùy chọn thêm để thanh điều hướng (nav) đẹp hơn --- */
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block; /* Giúp toàn bộ khu vực của li có thể click */
+}
