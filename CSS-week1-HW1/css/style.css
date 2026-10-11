@@ -1,4 +1,44 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+/* 1. Estilo para body: fuente y tamaño */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* 2. Estilo para header: color de fondo */
+header {
+  background-color: lightgray;
+}
+
+/* 3. Estilo para nav: color de fondo */
+nav {
+  background-color: darkgray;
+}
+
+/* 4. Estilo para main: color de fondo y tamaño de fuente */
+main {
+  background-color: white;
+  font-size: 18px;
+}
+
+/* 5. Estilo para footer: color de fondo */
+footer {
+  background-color: lightgray;
+}
+
+/* 6. Estilo para li: tipo de visualización y ancho */
+li {
+  display: inline-block;
+  width: 150px;
+}
+
+/* 7. Estilo para h1: alineación, fuente y color del texto */
+h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  color: navy;
+}
+
+/* 8. Estilo para p: altura de línea */
+p {
+  line-height: 1.5;
 }
