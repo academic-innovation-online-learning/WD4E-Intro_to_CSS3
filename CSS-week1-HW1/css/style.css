@@ -1,4 +1,45 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+
+/* 3. Font chữ và cỡ chữ */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+}
+
+/* 4. Màu nền tiêu đề */
+header {
+    background-color: #d9eaf7;
+}
+
+/* 5. Màu nền thanh điều hướng */
+nav {
+    background-color: #264653;
+}
+
+/* 6. Màu nền và cỡ chữ nội dung chính */
+main {
+    background-color: #f1faee;
+    font-size: 18px;
+}
+
+/* 7. Màu nền chân trang */
+footer {
+    background-color: #d9eaf7;
+}
+
+/* 8. Cách hiển thị và chiều rộng mục danh sách */
+li {
+    display: inline-block;
+    width: 120px;
+}
+
+/* 9. Căn chỉnh, kiểu chữ và màu chữ tiêu đề */
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #1d3557;
+}
+
+/* 10. Chiều cao dòng đoạn văn */
+p {
+    line-height: 1.6;
 }
