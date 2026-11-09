@@ -1,48 +1,36 @@
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    background-color: #f4f6f9;
+    background-color: #f4f4f9;
     color: #111111;
-    margin: 0;
-    padding: 0;
 }
 
 header {
     background-color: #0f172a;
-    padding: 20px;
+}
+
+nav {
+    background-color: #1e293b;
+}
+
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #0f172a;
+}
+
+li {
+    display: inline-block;
+    width: 30%;
 }
 
 h1 {
     text-align: center;
     font-family: 'Trebuchet MS', sans-serif;
     color: #ffffff;
-    margin: 0;
-}
-
-nav {
-    background-color: #1e293b;
-    padding: 15px;
-}
-
-li {
-    display: inline-block;
-    width: 30%;
-    text-align: center;
-}
-
-nav a, nav a:link, nav a:visited {
-    color: #ffffff !important;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-main {
-    background-color: #ffffff;
-    font-size: 18px;
-    color: #111111;
-    padding: 25px;
-    min-height: 400px;
 }
 
 p {
@@ -50,20 +38,15 @@ p {
     color: #111111;
 }
 
-
-main a, main a:link, main a:visited {
-    color: #0055cc !important;
+a, a:link, a:visited {
+    color: #0055cc;
     text-decoration: underline;
 }
 
-
-footer {
-    background-color: #0f172a;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
+nav a, footer a {
+    color: #ffffff !important; 
 }
 
-footer p, footer a, footer a:link, footer a:visited {
+footer p {
     color: #ffffff !important;
 }
