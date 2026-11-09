@@ -1,4 +1,49 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f9;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a365d;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+
+nav {
+    background-color: #2b6cb0;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 20px;
+    min-height: 400px;
+}
+
+p {
+    line-height: 1.6;
+    color: #2d3748;
+}
+
+footer {
+    background-color: #1a365d;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
 }
