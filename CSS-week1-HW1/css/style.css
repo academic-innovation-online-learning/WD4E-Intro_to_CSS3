@@ -7,8 +7,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-
 header {
     background-color: #111827;
     padding: 20px;
@@ -19,8 +17,6 @@ h1 {
     color: #ffffff;
     margin: 0;
 }
-
-
 nav {
     background-color: #1f2937;
     padding: 15px;
@@ -48,8 +44,6 @@ footer {
     text-align: center;
     padding: 20px;
 }
-
-
 nav a, footer a, footer p {
     color: #ffffff !important;
     font-weight: bold;
