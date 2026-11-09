@@ -3,13 +3,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     background-color: #f4f6f9;
-    color: #111111; 
+    color: #111111;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #0f172a; 
+    background-color: #0f172a;
     padding: 20px;
 }
 
@@ -17,14 +17,13 @@ h1 {
     text-align: center;
     font-family: 'Trebuchet MS', sans-serif;
     color: #ffffff;
+    margin: 0;
 }
-
 
 nav {
-    background-color: #1e293b; 
+    background-color: #1e293b;
     padding: 15px;
 }
-
 
 li {
     display: inline-block;
@@ -32,40 +31,39 @@ li {
     text-align: center;
 }
 
-
-nav a {
-    color: #ffffff;         
+nav a, nav a:link, nav a:visited {
+    color: #ffffff !important;
     font-weight: bold;
     text-decoration: underline;
 }
 
-
 main {
-    background-color: #ffffff; 
+    background-color: #ffffff;
     font-size: 18px;
-    color: #1a1a1a;
+    color: #111111;
     padding: 25px;
     min-height: 400px;
 }
 
-
 p {
     line-height: 1.6;
-    color: #1a1a1a;
+    color: #111111;
 }
 
-main a {
-    color: #0044cc; 
+
+main a, main a:link, main a:visited {
+    color: #0055cc !important;
+    text-decoration: underline;
 }
 
 
 footer {
-    background-color: #0f172a; 
-    color: #ffffff;        
+    background-color: #0f172a;
+    color: #ffffff;
     text-align: center;
     padding: 20px;
 }
 
-footer a {
-    color: #38bdf8;
+footer p, footer a, footer a:link, footer a:visited {
+    color: #ffffff !important;
 }
