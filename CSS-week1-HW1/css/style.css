@@ -2,3 +2,9 @@ body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 150%;
 }
+nav a {
+  font-size: 12;
+  color: yellowgreen;
+  background-color: red;
+  text-decoration: none;
+}
