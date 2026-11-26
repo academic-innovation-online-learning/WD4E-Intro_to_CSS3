@@ -2,9 +2,21 @@ body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 150%;
 }
-nav a {
+nav {
   font-size: 12;
   color: yellowgreen;
   background-color: red;
   text-decoration: none;
+  width: 80%;
+}
+nav a {
+  width: 10%;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+li{
+  list-style-type: none
 }
